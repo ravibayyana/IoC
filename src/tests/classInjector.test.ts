@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import { classInjector } from "../injector-lib";
+import { classInjector } from "../ioc-injectors";
 import { Container } from "../container";
 
 describe("Class Injector Tests", () => {

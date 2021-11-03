@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import { classInjector, propertyInjector } from "../injector-lib";
+import { classInjector, propertyInjector } from "../ioc-injectors";
 import { Container } from "../container";
 
 let classId: string = nanoid();

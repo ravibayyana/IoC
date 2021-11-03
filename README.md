@@ -55,5 +55,15 @@ The below code will create a new SampleClass and register in the Container with 
       }
     }
  ```
+ # Running test cases
+ 
+ **npm test** will run all 3 test suites and 13 test cases.
+ The following test script will run the tests. 
+ 
+ ```Json
+  "scripts": {    
+    "test": "jest --watchAll"
+  },
+  ```
  
  
